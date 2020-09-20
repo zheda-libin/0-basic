@@ -35,7 +35,7 @@ void selection_sort(vector<int>& nums, int n){
 }
 
 
-void insertion_sort(vector<int>&, int n){
+void insertion_sort(vector<int>& nums, int n){
     // 原理：扑克牌，每次从桌子上那一张牌，插进左手
     // 1. 找到位置；2. 插入
     // 二重循环，通过不断交换的方式，避免了找位置再插的问题
@@ -49,7 +49,7 @@ void insertion_sort(vector<int>&, int n){
 }
 
 
-void bubble_sort(vector<int>&, int n){
+void bubble_sort(vector<int>& nums, int n){
     // 原理：i -> [0, n-1]
     //       i=0, j -> [1, n-1]
     //       i=1, j -> [1, n-1-1]
